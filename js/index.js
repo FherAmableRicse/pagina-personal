@@ -1,9 +1,12 @@
 "use strict";
 
+import { contacts } from "../utlis/contacts.js";
 import footer from "./footer.js";
+import header from "./header.js";
 
 const documentReady = () => {
-  footer();
+  header();
+  footer(contacts);
 };
 
 document.addEventListener("DOMContentLoaded", documentReady);

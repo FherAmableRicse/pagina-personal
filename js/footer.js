@@ -1,8 +1,8 @@
 
 import { contacts } from "../utlis/contacts.js";
+//sfc
 
-
-const footer = () => {
+const footer = (contacts) => {
     const footerNavLinkList = document.querySelector(".footer-nav__link-list");
     const footerNavCredit = document.querySelector(".footer-nav__credits");
     contacts
