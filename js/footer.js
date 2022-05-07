@@ -19,8 +19,8 @@ const footer = (contacts) => {
         });
 
     footerNavCredit.innerHTML += `
-      🦄Copyright &copy; ${new Date().getFullYear()} <a href="https://www.linkedin.com/in/elliotgaramendi/"
-      class="footer-nav__credits-author" target="_blank" rel="noreferrer">Elliot Garamendi.</a> Todos
+      🦄Copyright &copy; ${new Date().getFullYear()} <a href="https://www.linkedin.com/in/fher-amable-ricse-12730b176/"
+      class="footer-nav__credits-author" target="_blank" rel="noreferrer">Fher Amable.</a> Todos
       los derechos
       reservados.🦄
       `;
